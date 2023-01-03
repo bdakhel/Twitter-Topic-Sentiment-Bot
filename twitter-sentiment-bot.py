@@ -6,8 +6,8 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 def search(query,max_results):
     
     # Login
-    client = tweepy.Client('AAAAAAAAAAAAAAAAAAAAAKSEkwEAAAAAbmQBen2DazDYy6ID4B1OIg7t9DE%3DrpMfYpZHAwjIavbr8Wz46mtAYX1G9r0S7r2QQmVl0MR9DaN1Lh',
-   "EBoEXKGUFjyrGJ2WgdnqmAOQz", 'xlbpXmBtcEb17qIirRQV5FLnTMFuJARLpSUODxsJZQwhbf9R6W', '1608104923379699718-eIikYl7e7nYpvj1XL4MwEux317so4S', 'gwuxvTn8eZiA4lUJr2cXx40gRwvF1Z2W8vNYaYcBJJzc0')
+    client = tweepy.Client(consumer_key, consumer_secret,
+    access_token, access_token_secret)
     
     # Search recent tweets with query
     response = client.search_recent_tweets(query,max_results=max_results)
