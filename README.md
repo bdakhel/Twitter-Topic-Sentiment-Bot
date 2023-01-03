@@ -1,5 +1,5 @@
 # Twitter-Topic-Sentiment-Bot
-A program that checks twitter sentiment on different topics. This twitter bot uses the Tweepy python library to access the Twitter API. It also uses the SentimentIntensityAnalyzer from the python NLTK library to find the sentiment of the tweets returned from the Twitter API and returns the average sentiment of a tweet search on a topic inputed by the user.
+A program that checks twitter sentiment on different topics. This twitter bot uses the Tweepy python library to access the Twitter API. It also uses the pretrained SentimentIntensityAnalyzer from the python NLTK library to find the sentiment of the tweets returned from the Twitter API and returns the average sentiment of a tweet search on a topic inputed by the user.
 
 # Requirments
 Before using the program, ensure you have python3 is downloaded as well as the Tweepy and NLTK python libraries. You need to have a twitter developer account with a elevated access to the twitter API. 
